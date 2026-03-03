@@ -1,0 +1,137 @@
+body {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    font-size: 16px;
+}
+/* header stuff here */
+header {
+    font-family: 'Parisienne', cursive; 
+    padding: 1rem 2vw;
+}
+header span {
+    margin: 0;
+    color: #1192b6;
+    font-size: 2.5rem;
+}
+header p {
+    font-family: 'Spartan', sans-serif;
+    margin: 0;
+    color: #117cb6;
+    font-size: 1.22rem;
+}
+
+/* navigation stuff here */
+nav {
+    background-color:grey;
+}
+nav ul {
+    margin: 0;
+    padding: 0 2vw;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    font-size: .9rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+nav .active a {
+    background-color: black;
+    color: white;
+}
+nav a:hover {
+    background-color: rgb(195, 196, 198);
+}
+
+
+/* main stuff here */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    font-family: 'Parisienne', cursive;
+    color: white;
+    font-size: 2rem;
+    margin: -1rem -1rem .8rem -1rem;
+    background-color: #117cb6;
+    padding: 1rem;
+}
+main h2 {
+    color: #5c3a2e;
+    margin-bottom: .2rem;
+}
+main p {
+    color: black;
+    margin: 0 0 .8rem 0;
+    line-height: 190%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main ol {
+    background-color: #eaeaea;
+    font-family: 'Times New Roman', Times, serif;
+}
+main dl dt {
+    color: #f20519;
+    font-weight: 700;
+}
+main dl dd {
+    color: #024873;
+    font-size: .9rem;
+}
+main ul {
+    list-style-type: circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+main strong {
+    color: black;
+}
+
+main a {
+    color: #1281b4;
+}
+main a:hover {
+    background-color:#eee;
+}
+
+/*main image stuff here*/
+figure.hello {
+    margin: 0 0 0 10px;
+    float: right;
+    height: auto;
+    display: flex;
+}
+    figure.hello img {
+        width: 100;
+        height: auto;
+    }
+    
+figure.yahoo {
+      margin: 10px;
+    float: right;}
+
+    
+
+
+/* footer stuff here */
+footer {
+    border-top: solid #ccc 2px;
+    text-align: center;
+    color: #024873;
+    font-size: .5rem;
+    padding: 500% 5000;
+}
+footer a {
+    color: #024873;
+}
