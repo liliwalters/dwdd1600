@@ -129,6 +129,7 @@ main a {
 .myForm [type=tel],
 .myForm select,
 .myForm textarea {
+
     border: solid 1px #888;
     padding: .3rem;
     width: 250px;
@@ -153,21 +154,6 @@ main a {
     color: white;
     margin: 1rem 0 0 1vw;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
