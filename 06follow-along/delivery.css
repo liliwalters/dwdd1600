@@ -125,7 +125,7 @@ main a {
     display: block;
 }
 
-.myForm [typre=text],
+.myForm [type=text],
 .myForm [type=tel],
 .myForm select,
 .myForm textarea {
