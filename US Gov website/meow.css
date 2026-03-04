@@ -24,6 +24,7 @@ header p {
 /* navigation stuff here */
 nav {
     background-color:grey;
+    display:flex;
 }
 nav ul {
     margin: 0;
